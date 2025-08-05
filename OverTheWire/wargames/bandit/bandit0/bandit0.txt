@@ -2,6 +2,9 @@
 
 ## BANDIT0 WRITEUP WALKTHROUGH
 
+AUTHOR: andianao
+DATE: 2025-AUGUST-05-TUE
+
 REQUIRED: 
 > Log in to overthewire labs via ssh by the following credentials;
 	username: bandit0
