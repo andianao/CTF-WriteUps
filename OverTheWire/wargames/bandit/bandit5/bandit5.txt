@@ -1,5 +1,8 @@
 bandit5
 
+AUTHOR: andianao
+DATE: 2025-AUGUST-05-TUE
+
 level goal:
 
 
