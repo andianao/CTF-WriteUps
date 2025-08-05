@@ -1,0 +1,14 @@
+bandit4:
+level goal: The password for the next level is stored in the only human-readable file in the inhere directory. 
+Tip: if your terminal is messed up, try the “reset” command.
+$ ls
+
+$ cat inhere/-file07
+
+run from file1 to file 9 then 7 is the one
+
+with password
+
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+

@@ -1,0 +1,16 @@
+level goal: The password for the next level is stored in a hidden file in the inhere directory.
+
+$ ls
+
+
+$ ls inhere
+
+
+$ ls -la inhere
+
+
+$ cat inhere/...Hiding-From-You
+
+the password is
+
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ

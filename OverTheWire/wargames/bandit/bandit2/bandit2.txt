@@ -1,0 +1,9 @@
+level goal: find a password from a file called --spaces in this filename--
+
+$ ls 
+
+$ cat < --spaces\ in\ this\ filename--
+
+and the password will show as follows
+
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx

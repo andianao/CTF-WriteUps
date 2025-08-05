@@ -1,0 +1,15 @@
+
+level goal: The password for the next level is stored in a file called - located in the home directory
+
+$ ls
+
+$ cat - ( it won't work )
+
+instead use
+
+$ cat < -
+
+and it will show
+
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+use it to login to bandit2
