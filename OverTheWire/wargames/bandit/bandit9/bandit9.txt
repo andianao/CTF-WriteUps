@@ -1,5 +1,8 @@
 bandit9:
 
+AUTHOR: andianao
+DATE: 2025-AUGUST-06-WED
+
 level goal: The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 run
