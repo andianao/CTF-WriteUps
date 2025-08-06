@@ -1,0 +1,58 @@
+# bandit7
+
+level goal:
+The password for the next level is stored in the file data.txt 
+next to the word millionth
+
+login to bandit7 by using the password from the bandit6
+
+once loged in
+
+run
+$ ls
+
+you will find a file called data.txt and this is what we want
+
+run the command to see the contents of it
+
+$ cat data.txt
+
+but the file it is too long with many usernames and their possibly responsible passwords
+
+run
+
+$ cat data.txt | grep bandit8
+
+it results to none
+
+then try again for only bandit
+
+$ cat data.txt | grep bandit
+
+there results to 6 passwords of interests 
+
+lets try one by one manualy ( but this is  not the best way to do it, but for now its better trying them)
+
+bandit	MFa7k86ULwUJ8ZsVZJyq4E0XBCVEu7ck
+banditti	79V6VSFIXwpATtq2A2IXaIlG7EtajBDL
+bandits	HusX2CTUZSike5GzdL1eWNUrvpkaVPYr
+banditry	y2muCYRokuPG7LL8htGrQnwjHixgB2XL
+banditry's	opE3V3IoxrJk0x2wqRt7CL5TUlUtpE1Q
+bandit's	N3dCkVYPAXHn8mv9VnREnaaOQrdC9ika
+
+all of them refused to grant us access to bandit8 
+
+> This means we are totaly wrong, ( it's part of learning also )
+
+from the instructions it says the password is next to millionth word
+( meaning it is just next to it, so find exactly the word "millionth" without the "" and get the password next to it)
+
+run
+
+$ cat data.txt | grep millionth
+
+it results to
+
+ millionth	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+then	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc is our password to login to bandit8

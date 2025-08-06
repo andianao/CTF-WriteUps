@@ -1,0 +1,43 @@
+bandit9:
+
+level goal: The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
+
+run
+$ strings data.txt | grep -E '^=+'
+
+the password will be shown as 
+
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+
+
+
+more detailed steps 
+Step 1: Extract human-readable strings
+
+Use strings to pull out only printable (readable) text from the file:
+
+strings data.txt
+
+This filters out binary garbage and shows you readable content.
+🔹 Step 2: Filter only lines with = before the text
+
+Use grep to find lines where the readable string is preceded by many =:
+
+strings data.txt | grep -E '^=+'
+
+This command:
+
+    strings data.txt → extracts human-readable strings.
+
+    grep -E '^=+' → matches lines that start with one or more = signs.
+
+🔹 Step 3: (Optional) Extract only the string after the = signs
+
+strings data.txt | grep -oP '^=+\K.*'
+
+    ^=+ → start of line, multiple =
+
+    \K → discard everything before this
+
+    .* → capture the rest of the line

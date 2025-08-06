@@ -1,0 +1,14 @@
+bandit8:
+
+level goal:
+The password for the next level is stored in the file data.txt 
+and is the only line of text that occurs only once
+
+run sort command and fetch a unique value
+
+$ sort data.txt | uniq -u
+
+it results to the password
+
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+verify it by loging to bandit9

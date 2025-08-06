@@ -1,0 +1,54 @@
+#bandit6
+level goal: The password for the next level is stored somewhere on the server and has all of the following properties:
+
+    owned by user bandit7
+    owned by group bandit6
+    33 bytes in size
+
+run the following commands
+
+$ ls
+
+$ find / -type f -size 33c | grep bandit6
+
+observe the greped output for bandit6
+
+you will see something of interesting at path /etc/bandit_pass/bandit6
+
+run the following command
+
+$ cat /etc/bandit_pass/bandit6
+
+the password will be displayed
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+but this password doesnt work to login for the bandit7
+because the above password is for bandit6 login 
+
+so let's dig deeper to find password for bandit7
+
+let's modify the previous command to grep the bandit7 instead of bandit6
+$ find / -type f -size 33c | grep bandit7
+
+there are 2 outputs of interests 
+1. output at /etc/bandit_pass/bandit7
+
+run 
+$ cat /etc/bandit_pass/bandit7
+
+it results to permision denied ( it is because of ... )
+
+2. output of interest
+
+at /var/lib/dpkg/info/bandit7.password
+
+run 
+
+$ cat /var/lib/dpkg/info/bandit7.password
+
+and it will spawns a password
+
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+this is a password used to login for bandit7
+Congrats you did it .....
