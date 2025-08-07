@@ -1,0 +1,33 @@
+#bandit11
+
+level goal:
+The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+
+log in into bandit11 by using the password from bandit10
+
+run
+
+$ ls
+
+run
+
+$ cat data.txt
+
+run the following code if you dont know the number of rotations
+since it will run from 1 to 25
+
+$ for i in {1..25}; do
+    # Rotate letters backwards by $i using `tr`
+    result=$(echo "$Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4" | tr "A-Z" "$(echo {A..Z} | sed -E "s/(.{${i}})(.*)/\2\1/;s/ //g")" \
+                              | tr "a-z" "$(echo {a..z} | sed -E "s/(.{${i}})(.*)/\2\1/;s/ //g")")
+    echo "Shift $i: $result"
+done
+
+
+and the password is
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+verification
+use it to login to bandit12
+
+enjoy
