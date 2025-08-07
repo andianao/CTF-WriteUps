@@ -58,4 +58,8 @@ it results to
 
  millionth	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
-then	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc is our password to login to bandit8
+then	
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc 
+is our password to login to bandit8
+
+Verify it by loging to bandit8
