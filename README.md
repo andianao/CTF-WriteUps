@@ -9,7 +9,7 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 
 ### 🟢 TryHackMe
 - [Blue](./TryHackMe/Blue.md)
-- [Mr.Robot](./TryHackMe/Mr.Robot.md)
+- [Mr. Robot](./TryHackMe/Mr._Robot.md)
 
 ### 🟡 HackTheBox
 *(coming soon)*
