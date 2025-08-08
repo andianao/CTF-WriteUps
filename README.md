@@ -1,7 +1,7 @@
 # 🧠 CTF Writeups Vault
 
 Welcome to my cybersecurity learning vault.  
-This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**, **VulnHub**, and **PicoCTF**.
+This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**, **PicoCTF** and **VulnHub**.
 
 ---
 
@@ -14,10 +14,10 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 ### 🟡 HackTheBox
 *(coming soon)*
 
-### 🔵 VulnHub
+### 🔴 PicoCTF
 *(coming soon)*
 
-### 🔴 PicoCTF
+### 🔵 VulnHub
 *(coming soon)*
 
 ---
