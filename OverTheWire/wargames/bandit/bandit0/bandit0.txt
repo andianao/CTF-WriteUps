@@ -1,26 +1,28 @@
 ### WELCOME TO OVERTHEWIRE.ORG/WARGAMES/BANDIT ###
 
-## BANDIT0 WRITEUP WALKTHROUGH
+BANDIT0 WRITEUP WALKTHROUGH
 
 AUTHOR: andianao
 DATE: 2025-AUGUST-05-TUE
 
-REQUIRED: 
-> Log in to overthewire labs via ssh by the following credentials;
-	username: bandit0
-	ip: bandit.labs.overthewire.org
-	port: 2220
-	password: bandit0
+OBJECTIVE (LEVEL GOAL):
+> Log in to Bandit0 via SSH and find the password for Bandit1 stored in the readme file.
+> Save the found login credentials to your local machine
 
-> Find the password on readme file to log in to bandit1.
-> Save the login credentials to your local machine
+DETAILS:
+	Host: bandit.labs.overthewire.org
+    Port: 2220
+    Username: bandit0
+    Password: bandit0
+
+
 
 STEPS:
 01. LOGIN INTO BANDIT0
-> Run the following command to login into the overthewire.org
-$ sudo ssh bandit0@bandit.labs.overthewire.org -p 2220
+> Run the following command on your terminal to login into the overthewire.org for bandit0
+$ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
-> Enter the password for the bandit0
+> Enter the password for the bandit0 when promted
 $ bandit0
 
 ### DONE..!
