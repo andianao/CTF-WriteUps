@@ -25,4 +25,6 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 ## 🚧 Work In Progress
 I'm still learning and documenting as I go. Mistakes = learning.
 
+The more the mistakes, The more the learning
+
 <!-- 📫 Twitter: [@massimohacks](https://twitter.com/massimohacks) -->
