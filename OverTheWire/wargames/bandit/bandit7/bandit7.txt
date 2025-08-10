@@ -11,7 +11,7 @@ login to bandit7 by using the password from the bandit6
 
 once loged in
 
-run
+run the list command
 $ ls
 
 you will find a file called data.txt and this is what we want
@@ -22,7 +22,7 @@ $ cat data.txt
 
 but the file it is too long with many usernames and their possibly responsible passwords
 
-run
+run the display command
 
 $ cat data.txt | grep bandit8
 
