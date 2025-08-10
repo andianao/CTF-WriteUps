@@ -3,14 +3,22 @@ bandit5
 AUTHOR: andianao
 DATE: 2025-AUGUST-05-TUE
 
-level goal:
+level goal: The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
+    human-readable
+    1033 bytes in size
+    not executable
 
+Run the list command to view available files
 $ ls
 
+navigate to inhere directory
 $ cd inhere
 
+list all files including the hidden ones
 $ ls -la
+
+Run the command to find the file with the wanted properties
 
 $ find . -type f -size 1033c ! -executable -exec {} \;
 
