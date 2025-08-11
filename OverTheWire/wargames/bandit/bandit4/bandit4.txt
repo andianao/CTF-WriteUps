@@ -12,7 +12,7 @@ $ ls
 display the files by cat command
 $ cat inhere/-file07
 
-run from file1 to file 9 then 7 is the one
+run from file1 to file 9, then 7 is the one
 
 with password
 
