@@ -8,7 +8,7 @@ The password for the next level is stored in the file data.txt
 and is the only line of text that occurs only once
 
 run the following sort command and fetch a unique value
-( there are explanations on how to use this sort command: coming soon)
+( there are explanations on how to use this sort command: coming soon, Meanwhile take it as it is)
 
 $ sort data.txt | uniq -u
 
