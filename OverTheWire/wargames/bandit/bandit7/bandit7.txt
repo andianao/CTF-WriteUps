@@ -23,13 +23,11 @@ $ cat data.txt
 but the file it is too long with many usernames and their possibly responsible passwords
 
 run the display command
-
 $ cat data.txt | grep bandit8
 
 it results to none
 
 then try again for only bandit
-
 $ cat data.txt | grep bandit
 
 there results to 6 passwords of interests 
@@ -50,7 +48,7 @@ all of them refused to grant us access to bandit8
 from the instructions it says the password is next to millionth word
 ( meaning it is just next to it, so find exactly the word "millionth" without the "" and get the password next to it)
 
-run
+run the display command and catch out a text with "milionth" word
 
 $ cat data.txt | grep millionth
 
