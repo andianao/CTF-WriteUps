@@ -7,7 +7,7 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 
 ## 🏴 Rooms Solved
 ### 🟢 OverTheWire - Wargames/Bandit
-- [Bandit0](./OverTheWire/wargames/bandit/bandit0.txt)
+- [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt)
 
 - 
 ### 🟢 TryHackMe
