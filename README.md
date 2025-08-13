@@ -1,7 +1,7 @@
 # 🧠 CTF Writeups Vault
 
 Welcome to my cybersecurity learning vault.  
-This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**, **PicoCTF** and **VulnHub**.
+This repo contains my writeups from platforms like **OverTheWire**, **TryHackMe**, **HackTheBox**, **PicoCTF** and **VulnHub**.
 
 ---
 
@@ -12,7 +12,7 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 <!-- 
 - [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt) - [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt) - [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt)
 -->
-- 
+
 ### 🟢 TryHackMe
 - [Blue](./TryHackMe/Blue.md)
 - [Mr. Robot](./TryHackMe/Mr._Robot.md)
