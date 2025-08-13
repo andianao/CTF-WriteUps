@@ -6,7 +6,10 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 ---
 
 ## 🏴 Rooms Solved
+### 🟢 OverTheWire - Wargames/Bandit
+- [Bandit0](./OverTheWire/Wargames/Bandit/Bandit0.txt)
 
+- 
 ### 🟢 TryHackMe
 - [Blue](./TryHackMe/Blue.md)
 - [Mr. Robot](./TryHackMe/Mr._Robot.md)
