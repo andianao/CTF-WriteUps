@@ -7,8 +7,14 @@ This repo contains my writeups from platforms like **TryHackMe**, **HackTheBox**
 
 ## 🏴 Rooms Solved
 ### 🟢 OverTheWire - Wargames/Bandit
-- [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt)
+- [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt) - [Bandit1](./OverTheWire/wargames/bandit/bandit1/bandit1.txt) - [Bandit2](./OverTheWire/wargames/bandit/bandit2/bandit2.txt)
+- [Bandit3](./OverTheWire/wargames/bandit/bandit3/bandit3.txt) - [Bandit4](./OverTheWire/wargames/bandit/bandit4/bandit.txt) - [Bandit5](./OverTheWire/wargames/bandit/bandit5/bandit5.txt)
+- [Bandit6](./OverTheWire/wargames/bandit/bandit6/bandit6.txt) - [Bandit7](./OverTheWire/wargames/bandit/bandit7/bandit7.txt) - [Bandit8](./OverTheWire/wargames/bandit/bandit8/bandit8.txt)
+- [Bandit9](./OverTheWire/wargames/bandit/bandit9/bandit9.txt) - [Bandit10](./OverTheWire/wargames/bandit/bandit10/bandit10.txt) - [Bandit11](./OverTheWire/wargames/bandit/bandit11/bandit11.txt)
 
+<!-- 
+- [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt) - [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt) - [Bandit0](./OverTheWire/wargames/bandit/bandit0/bandit0.txt)
+-->
 - 
 ### 🟢 TryHackMe
 - [Blue](./TryHackMe/Blue.md)
