@@ -4,12 +4,16 @@ DATE: 2025-AUGUST-05-TUE
 
 level goal: The password for the next level is stored in a file called - located in the home directory
 
+Run listing directories command
 $ ls
 
+Run displaying command
 $ cat - ( it won't work )
 
 instead use
 
+
+Run displaying command
 $ cat < -
 
 and it will show
