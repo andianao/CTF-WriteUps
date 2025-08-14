@@ -11,7 +11,7 @@ login to bandit7 by using the password from the bandit6
 
 once loged in
 
-run the list command
+run the list command to view available files in the current directory
 $ ls
 
 you will find a file called data.txt and this is what we want
