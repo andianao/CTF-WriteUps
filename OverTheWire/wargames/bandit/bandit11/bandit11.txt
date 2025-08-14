@@ -9,11 +9,11 @@ The password for the next level is stored in the file data.txt, where all lowerc
 
 🔹 log in into bandit11 by using the password from bandit10
 
-🔹 run
+🔹 run the listing command
 
 $ ls
 
-🔹 run
+🔹 run the display command
 
 $ cat data.txt
 
