@@ -30,6 +30,8 @@ FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 🔹 Verification:
 Use it to login to bandit10
 
+Congratulations you nailed it .....
+
 🔹 Step 3: (Optional) Extract only the string after the = signs
 
 strings data.txt | grep -oP '^=+\K.*'
