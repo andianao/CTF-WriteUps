@@ -15,4 +15,7 @@ $ sort data.txt | uniq -u
 it results to the password
 
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
 verify it by loging to bandit9
+
+Congratulations you nailed it .....
