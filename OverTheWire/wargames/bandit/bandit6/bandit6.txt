@@ -9,24 +9,24 @@ level goal: The password for the next level is stored somewhere on the server an
     owned by group bandit6
     33 bytes in size
 
-run the file listing command
+🔹 run the file listing command
 $ ls
 
-run the find command to search the file with the given properties
+🔹 run the find command to search the file with the given properties
 $ find / -type f -size 33c | grep bandit6
 
-observe the greped output for bandit6
+🔹 observe the greped output for bandit6
 
 you will see something of interesting at path /etc/bandit_pass/bandit6
 
-run the following command to display the contents of the file
+🔹 run the following command to display the contents of the file
 
 $ cat /etc/bandit_pass/bandit6
 
 the password will be displayed
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
-Run the password by logging into bandit7
+🔹 Run the password by logging into bandit7
 
 Does it run?
 
@@ -35,13 +35,13 @@ because the above password is for bandit6 login
 
 so let's dig deeper to find password for bandit7
 
-let's modify the previous command to grep the bandit7 instead of bandit6
+🔹 let's modify the previous command to grep the bandit7 instead of bandit6
 $ find / -type f -size 33c | grep bandit7
 
 there are 2 outputs of interests 
 1. output of interest at /etc/bandit_pass/bandit7
 
-run cat command to display the file components
+🔹 run cat command to display the file components
 $ cat /etc/bandit_pass/bandit7
 
 it results to permision denied ( it is because of ... )
@@ -50,7 +50,7 @@ it results to permision denied ( it is because of ... )
 
 at /var/lib/dpkg/info/bandit7.password
 
-run cat command to display the output of the file
+🔹 run cat command to display the output of the file
 
 $ cat /var/lib/dpkg/info/bandit7.password
 
