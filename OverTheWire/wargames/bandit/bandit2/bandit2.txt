@@ -4,11 +4,11 @@ DATE: 2025-AUGUST-05-TUE
 level goal: find a password from a file called --spaces in this filename--
 
 
-Run listing directory command
+🔹 Run listing directory command
 $ ls 
 
 
-Run displaying command
+🔹 Run displaying command
 $ cat < --spaces\ in\ this\ filename--
 
 and the password will show as follows
