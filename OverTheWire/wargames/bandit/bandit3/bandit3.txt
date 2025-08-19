@@ -3,16 +3,16 @@ DATE: 2025-AUGUST-05-TUE
 
 level goal: The password for the next level is stored in a hidden file in the inhere directory.
 
-Run the file listing command 
+🔹 Run the file listing command 
 $ ls
 
-Again run the list command in the inhere directory
+🔹 Again run the list command in the inhere directory
 $ ls inhere
 
-list all hidden files
+🔹 list all hidden files
 $ ls -la inhere
 
-Run display command to view the internals of the file
+🔹 Run display command to view the internals of the file
 $ cat inhere/...Hiding-From-You
 
 the password is
