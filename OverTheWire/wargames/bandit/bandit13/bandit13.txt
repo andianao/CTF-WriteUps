@@ -1,0 +1,67 @@
+bandit13 WriteUp
+
+Bandit Level 13 → Level 14
+
+Level Goal
+
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. 
+For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. 
+Note: localhost is a hostname that refers to the machine you are working on
+
+Commands you may need to solve this level
+
+ssh, telnet, nc, openssl, s_client, nmap
+
+
+Helpful Reading Material
+
+    SSH/OpenSSH/Keys (https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
+
+
+Plan
+Since the password is owned by the user bandit14,
+and we login by using user bandit13.
+what we have is only sshkey.private which we can view it's contents,
+then that is good for us.
+
+Hence the trick is to copy the sshkey.private to our local machine and name it whatever we like
+but for this case i choose to use the same name as sshkey.private
+
+$ cat sshkey.private
+
+copy its contents manually to your local machine and save it as sshkey.private
+
+From now onwards on your local machine run the following commands
+
+
+$ shh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+Syntax for the above command: ssh -i <ssh-file-name> <username>@<hostname> (write without the < >)
+
+then you are supposed to be in bandit14 without being asked for password
+if not then there is something wrong you did. 
+please review your previous steps
+
+
+since all of the passwords are stored on /etc/bandit_pass/
+now lets find the password for bandit14
+it will be stored on /etc/bandit_pass/bandit14
+
+
+run the following command
+$ cat /etc/bandit_pass/bandit14
+
+Voila! and the password is
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+Verification
+
+let's use the password to login to bandit14 (without using the ssh key but the password only)
+
+run the following command
+
+$ ssh bandit14@bandit.labs.overthewire.org -p 2220
+
+and when prompted for password enter: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+Congratulations you nailed it ..... :)
