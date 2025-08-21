@@ -1,5 +1,8 @@
 bandit13 WriteUp
 
+AUTHOR: andianao
+DATE: 2025-AUGUST-21-THU
+
 Bandit Level 13 → Level 14
 
 Level Goal
