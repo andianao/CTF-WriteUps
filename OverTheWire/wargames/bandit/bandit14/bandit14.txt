@@ -1,0 +1,55 @@
+Welcome to bandit14 (Bandit Level 14 → Level 15) WriteUp
+
+Level Goal
+
+The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
+Commands you may need to solve this level
+
+ssh, telnet, nc, openssl, s_client, nmap
+
+Helpful Reading Material
+
+    How the Internet works in 5 minutes (YouTube) (Not completely accurate, but good enough for beginners)
+    IP Addresses
+    IP Address on Wikipedia
+    Localhost on Wikipedia
+    Ports
+    Port (computer networking) on Wikipedia
+
+
+Plan
+
+login to bandit14
+send the password of bandit14 to the localhost on port 30000
+retrieve the password
+
+
+Login to bandit14
+
+$ ssh
+
+sending the password to the localhost
+
+Syntax: echo "Enter-your-message-here" | nc <ip address or hostname> <port number> ( write without the < > )
+
+$ echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | nc bandit.labs.overthewire.org 30000
+
+the output will be
+
+Correct!
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+Retrieve the password for bandit15
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+Verification
+
+use it to login to bandit15
+
+$ ssh bandit15@bandit.labs.overthewire.org -p 2220
+
+when prompted for the password
+Enter the password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+
+Congratulations You Nailed It ...... :)
