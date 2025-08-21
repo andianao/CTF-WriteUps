@@ -1,0 +1,58 @@
+Welcome to bandit15 (Bandit Level 15 → Level 16) WriteUp
+
+Level Goal
+
+The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL/TLS encryption.
+
+Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read the “CONNECTED COMMANDS” section in the manpage.
+Commands you may need to solve this level
+
+ssh, telnet, nc, ncat, socat, openssl, s_client, nmap, netstat, ss
+Helpful Reading Material
+
+    Secure Socket Layer/Transport Layer Security on Wikipedia
+    OpenSSL Cookbook - Testing with OpenSSL
+
+
+
+Plan
+
+login to bandit15
+send the password of bandit15 to the localhost on port 30001
+retrieve the password
+
+
+Login to bandit15
+
+$ ssh bandit15@bandit.labs.overthewire.org -p 2220
+
+when prompted for the password
+Enter the valid password for bandit15: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+
+
+sending the password to the localhost by using SSL/TLS
+
+Syntax: echo "Enter-your-message-here" | ncat --ssl <ip address or hostname> <port number> ( write without the < > )
+
+$ echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | ncat --ssl bandit.labs.overthewire.org 30001
+
+the output will be
+
+Correct!
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+Retrieve the password for bandit16
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+Verification
+
+use it to login to bandit16
+
+$ ssh bandit16@bandit.labs.overthewire.org -p 2220
+
+when prompted for the password
+Enter the password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+
+Congratulations You Nailed It ...... :)
