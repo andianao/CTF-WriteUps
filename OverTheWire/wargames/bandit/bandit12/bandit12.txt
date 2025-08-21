@@ -1,5 +1,8 @@
 bandit12
 
+AUTHOR: andianao
+DATE: 2025-AUGUST-19-TUE
+
 level goal:
 The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. 
 For this level it may be useful to create a directory under /tmp in which you can work. 
