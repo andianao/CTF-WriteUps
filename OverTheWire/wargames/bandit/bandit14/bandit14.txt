@@ -29,7 +29,7 @@ retrieve the password
 
 Login to bandit14
 
-$ ssh
+$ ssh bandit14@bandit.labs.overthewire.org -p 2220
 
 sending the password to the localhost
 
