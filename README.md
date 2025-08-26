@@ -1,4 +1,4 @@
-# 🧠 CTF Writeups Vault
+# 🧠 CTF Writeups Repo
 
 Welcome to my CTF cybersecurity learning vault.  
 This repo contains my writeups from platforms like **OverTheWire**, **TryHackMe**, **HackTheBox**, **PicoCTF** and **VulnHub**.
