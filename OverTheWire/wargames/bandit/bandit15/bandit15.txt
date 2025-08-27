@@ -37,7 +37,8 @@ Enter the valid password for bandit15: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 sending the password to the localhost by using SSL/TLS
 
-Syntax: echo "Enter-your-message-here" | ncat --ssl <ip address or hostname> <port number> ( write without the < > )
+Syntax: echo "Enter-your-message-here" | ncat --ssl <ip address or hostname> <port number> 
+( write without the < > )
 
 $ echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | ncat --ssl bandit.labs.overthewire.org 30001
 
