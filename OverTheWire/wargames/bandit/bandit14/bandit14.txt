@@ -33,7 +33,8 @@ $ ssh bandit14@bandit.labs.overthewire.org -p 2220
 
 sending the password to the localhost
 
-Syntax: echo "Enter-your-message-here" | nc <ip address or hostname> <port number> ( write without the < > )
+Syntax: echo "Enter-your-message-here" | nc <ip address or hostname> <port number> 
+( write without the < > )
 
 $ echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | nc bandit.labs.overthewire.org 30000
 
