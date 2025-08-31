@@ -38,7 +38,7 @@ Syntax: echo "Enter-your-message-here" | nc <ip address or hostname> <port numbe
 
 $ echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | nc bandit.labs.overthewire.org 30000
 
-the output will be
+the output will be as follows
 
 Correct!
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
