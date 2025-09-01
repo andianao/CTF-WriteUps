@@ -1,6 +1,6 @@
 ## Hello there
 
-This is a simple Writeup for bandit from OverTheWire
+This is a simple Writeup for all the bandit challenges from OverTheWire
 
 ### Heads Up
 This challenges focuses to improve your linux skills from file navigation, handling etc.
