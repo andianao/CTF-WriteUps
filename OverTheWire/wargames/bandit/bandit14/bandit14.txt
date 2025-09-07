@@ -20,7 +20,7 @@ Helpful Reading Material
     Port (computer networking) on Wikipedia
 
 
-Plan
+Plan:
 
 login to bandit14
 send the password of bandit14 to the localhost on port 30000
