@@ -53,7 +53,7 @@ use it to login to bandit15
 $ ssh bandit15@bandit.labs.overthewire.org -p 2220
 
 when prompted for the password
-Enter the password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+Enter the following password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 
 Congratulations You Nailed It ...... :)
